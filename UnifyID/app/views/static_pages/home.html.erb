@@ -1,2 +1,51 @@
-<h1>StaticPages#home</h1>
-<p>Find me in app/views/static_pages/home.html.erb</p>
+<div class="backgroundImg">
+            <!-- <img src="img/logo.png" alt="" /> -->
+        </div>
+        <!-- Fixed title and navigation bar to top of screen, even when scrolling. -->
+        <div class="titlebar">
+            <nav>
+                <a href="#home" onclick="scrollTo('home'); return false;">Home</a>
+                <a href="#randomimage" onclick="scrollTo('randomimage'); return false;">Random Image</a>
+                <a href="#whitenoise" onclick="scrollTo('whitenoise'); return false;">White Noise</a>
+                <div class="navbreak">
+                    <br>
+                </div>
+                <a href="#rsa" onclick="scrollTo('rsa'); return false;">RSA</a>
+                <a href="#contact" onclick="scrollTo('contact'); return false;">Contact Us</a>
+            </nav>
+        </div>
+        <!-- About Div. Contains info about the project and directions for access -->
+        <div id="home" class="anchor"></div>
+        <div class="section mainTitle">
+                <h2>Welcome to Michael's UnifyID Challenge!</h2>
+                <p>
+                        The site is built using Ruby on Rails, HTML/CSS/JS, and a little bit of jQuery. It's got a bit of responsiveness to it, but could definitely use some more work!
+                </p>
+                <p>
+                        To access each of the challenges, click the links above! RandomImage is the 128x128 image challenge (challenge1), WhiteNoise has a white noise player on it, and RSA has the RSA key pairs listed. Alternately, feel free to scroll down to see each of the challenges I was able to complete below!
+                </p>
+        </div>
+        <!-- Random Image -->
+        <div id="randomimage" class="anchor"></div>
+        <div class="section randomimage">
+                <button id="gen_image">Generate Image</button>
+        </div>
+        <!-- White Noise -->
+        <div id="whitenoise" class="anchor"></div>
+        <div class="section whitenoise">
+        </div>
+        <!-- RSA Key Pair -->
+        <div id="rsa" class="anchor"></div>
+        <div class="section rsa">
+        </div>
+        <!-- Contact Information -->
+        <div id="contact" class="anchor"></div>
+        <div class="section contact">
+            <h2>Contact Me</h2>
+            <img src="" alt="" />
+            <p class="sectionText">
+                michael.a.loubier@gmail.com<br>
+                (219) 238-3423<br>
+                Michael Loubier<br>
+            </p>
+        </div>
